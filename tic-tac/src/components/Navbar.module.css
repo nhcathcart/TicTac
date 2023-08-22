@@ -1,0 +1,101 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.titleContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.titleContainerText {
+  font-size: 1.75rem;
+}
+.hamburgerMenuButton{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    color: #e4dbd8;
+    height: 24px;
+    width: 24px;
+  }
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #7387a0;
+  overflow: hidden;
+}
+.navButton{
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    padding: 1rem;
+    font-size: inherit;
+    font-family: inherit;
+    margin: .2rem;
+    border-radius: 10px;
+}
+.navButton:hover{
+  background-color: #56667a
+}
+.navButton:active{
+  transform: scale(.95)
+}
+.childButtonContainer{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.hidden{
+    display: none;
+}
+.sideBarAndContentContainer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.contentContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    overflow-y: scroll;
+    color: black;
+}
+@media (min-width: 768px) {
+    /* Adjust the breakpoint as needed */
+   
+    }
+
+/* <palette>
+  <color name="Dark purple" hex="2c1320" r="44" g="19" b="32" />
+  <color name="English Violet" hex="5f4b66" r="95" g="75" b="102" />
+  <color name="Cool gray" hex="8797af" r="135" g="151" b="175" />
+  <color name="Payne's gray" hex="56667a" r="86" g="102" b="122" />
+   highlight #7387a0
+</palette> */
